@@ -2,8 +2,6 @@ import '../css/Header.css';
 import github_icon from '../img/github-icon.png';
 import linkedin_icon from '../img/linkedin-icon.png';
 
-// acrescentar ícones de redes sociais
-
 export function Header() {
     return (
         <div className="header">

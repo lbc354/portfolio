@@ -1,5 +1,5 @@
 import '../css/AboutMe.css';
-import picture from '../img/_eu_.jpg';
+import picture from '../img/eu.jpg';
 
 export function AboutMe() {
     return (
