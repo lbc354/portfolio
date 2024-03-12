@@ -1,11 +1,11 @@
 import '../css/AboutMe.css';
-import pic from '../img/_eu_.jpg';
+import picture from '../img/_eu_.jpg';
 
 export function AboutMe() {
     return (
         <div className='container'>
             <div className='picture'>
-                <img src={pic} alt="my-picture" />
+                <img src={picture} alt="my-picture" />
             </div>
             <div className='aboutMe'>
                 <h2>Sobre mim</h2>
