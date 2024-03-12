@@ -1,0 +1,18 @@
+.experience {
+    background-color: black;
+    width: 97%;
+    margin: 30px auto;
+    padding: 30px 0;
+}
+
+.experience ul li {
+    list-style: none;
+    text-align: justify;
+    width: 97%;
+    line-height: 30px;
+    text-indent: 60px;
+}
+
+.experience ul li a {
+    color: orange;
+}

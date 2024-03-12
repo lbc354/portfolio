@@ -1,0 +1,28 @@
+.skills {
+    background-color: black;
+    width: 97%;
+    margin: 30px auto;
+    padding: 30px 0;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.skills ul li {
+    list-style: none;
+    width: 20%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    padding-left: 100px;
+}
+
+.skills ul li img {
+    width: 50px;
+}

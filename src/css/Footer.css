@@ -1,0 +1,17 @@
+.footer {
+    background-color: black;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: orange;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.footer ul {
+    list-style: none;
+}

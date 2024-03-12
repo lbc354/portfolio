@@ -1,0 +1,36 @@
+.header {
+    height: 100px;
+    background-color: black;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: orange;
+    text-align: center;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header ul li img {
+    width: 20px;
+}
+
+.header ul li a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header ul li a:hover {
+    text-decoration: underline orange;
+}

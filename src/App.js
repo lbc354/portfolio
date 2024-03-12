@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import { Header } from "./pages/Header";
+import { AboutMe } from "./pages/AboutMe";
+import { Experience } from "./pages/Experience";
+import { Academic } from "./pages/Academic";
+import { Skills } from "./pages/Skills";
+import { MyProjects } from "./pages/MyProjects";
+import { Footer } from "./pages/Footer";
+// deploy gh pages: https://youtu.be/4G6O0BIoq6M?si=uP04N6M3o5xEAsX1
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <AboutMe/>
+      <Experience/>
+      <Academic/>
+      <Skills/>
+      <MyProjects/>
+      <Footer/>
     </div>
   );
 }
-
-export default App;
