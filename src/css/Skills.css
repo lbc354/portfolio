@@ -1,11 +1,12 @@
 .skills {
     background-color: black;
-    width: 97%;
+    width: 96%;
     margin: 30px auto;
     padding: 30px 0;
 }
 
 .skills ul {
+    padding: 0 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -15,14 +16,21 @@
 
 .skills ul li {
     list-style: none;
-    width: 20%;
+    width: 22%;
     display: flex;
-    /* justify-content: center; */
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 10px;
-    padding-left: 100px;
 }
 
 .skills ul li img {
     width: 50px;
+}
+
+/* responsividade */
+@media(max-width: 400px) {
+    .skills ul li {
+        width: 27%;
+    }
 }

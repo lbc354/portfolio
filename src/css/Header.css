@@ -7,30 +7,36 @@
     align-items: center;
 }
 
-.header h1 {
+.name h1 {
     color: orange;
-    text-align: center;
 }
 
-.header ul {
+.socialMedia ul {
     list-style: none;
     display: flex;
+    justify-content: center;
     gap: 20px;
 }
 
-.header ul li img {
+.socialMedia ul li img {
     width: 20px;
 }
 
-.header ul li a {
-    padding: 20px;
+.socialMedia ul li a {
     color: white;
     text-decoration: none;
     display: flex;
-    align-items: center;
+    align-items: end;
     gap: 10px;
 }
 
-.header ul li a:hover {
+.socialMedia ul li a:hover {
     text-decoration: underline orange;
+}
+
+/* responsividade */
+@media(max-width: 460px) {
+    .socialMedia ul {
+        flex-direction: column;
+    }
 }

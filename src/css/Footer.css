@@ -1,17 +1,12 @@
 .footer {
     background-color: black;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 20px 30px;
+}
+
+.footer h3, .footer p {
+    color: orange;
 }
 
 .footer p {
-    color: orange;
-    font-size: 20px;
-    padding-right: 50px;
-}
-
-.footer ul {
-    list-style: none;
+    text-align: end;
 }

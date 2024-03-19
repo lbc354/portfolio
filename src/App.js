@@ -6,7 +6,7 @@ import { Academic } from "./pages/Academic";
 import { Skills } from "./pages/Skills";
 import { MyProjects } from "./pages/MyProjects";
 import { Footer } from "./pages/Footer";
-// deploy gh pages: https://youtu.be/4G6O0BIoq6M?si=uP04N6M3o5xEAsX1
+
 export function App() {
   return (
     <div>

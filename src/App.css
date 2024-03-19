@@ -11,3 +11,10 @@ h2 {
     text-align: center;
     color: orange;
 }
+
+/* responsividade */
+@media(max-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+}

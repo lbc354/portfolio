@@ -1,18 +1,19 @@
 .experience {
     background-color: black;
-    width: 97%;
+    width: 96%;
     margin: 30px auto;
     padding: 30px 0;
 }
 
-.experience ul li {
+.experience p {
     list-style: none;
     text-align: justify;
-    width: 97%;
+    width: 80%;
     line-height: 30px;
-    text-indent: 60px;
+    text-indent: 50px;
+    margin: 0 auto;
 }
 
-.experience ul li a {
+.experience p a {
     color: orange;
 }

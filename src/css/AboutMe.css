@@ -1,20 +1,50 @@
 .container {
     background-color: black;
-    width: 97%;
+    width: 96%;
     margin: 30px auto;
     padding: 30px 0;
+}
+
+.myInfo {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .picture img {
-    height: 300px;
+    width: 200px;
     border-radius: 100px;
 }
 
 .aboutMe {
     text-align: justify;
+    width: 60%;
+}
+
+.aboutMe p {
     line-height: 30px;
-    text-indent: 30px;
-    width: 40%;
+    text-indent: 50px;
+}
+
+/* responsividade */
+@media(max-width: 900px) {
+    .myInfo {
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 750px) {
+    .myInfo {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .picture, .aboutMe {
+        margin: 0 auto;
+    }
+
+    .aboutMe {
+        width: 100%;
+    }
 }

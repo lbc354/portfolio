@@ -1,6 +1,6 @@
 .academicRecord {
     background-color: black;
-    width: 97%;
+    width: 96%;
     margin: 30px auto;
     padding: 30px 0;
 }
@@ -8,9 +8,15 @@
 .academicRecord ul {
     text-align: center;
     list-style: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.academicRecord ul li {
     margin-left: -40px;
 }
 
-.academicRecord h3 {
+.academicRecord .year {
+    font-weight: bold;
     text-decoration: underline orange;
 }

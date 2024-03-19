@@ -5,21 +5,25 @@ import linkedin_icon from '../img/linkedin-icon.png';
 export function Header() {
     return (
         <div className="header">
-            <h1>Lucas Barros</h1>
-            <ul>
-                <li>
-                    <a href="https://github.com/lbc354" target='_blank'>
-                        <img src={github_icon} alt="github-icon" />
-                        GitHub
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/lucas-barros-carregozi/" target='_blank'>
-                        <img src={linkedin_icon} alt="linkedin-icon" />
-                        LinkedIn
-                    </a>
+            <div className="name">
+                <h1>Lucas Barros</h1>
+            </div>
+            <div className="socialMedia">
+                <ul>
+                    <li>
+                        <a href="https://github.com/lbc354" target='_blank'>
+                            <img src={github_icon} alt="github-icon" />
+                            <span>GitHub</span>
+                        </a>
                     </li>
-            </ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/lucas-barros-carregozi/" target='_blank'>
+                            <img src={linkedin_icon} alt="linkedin-icon" />
+                            <span>LinkedIn</span>
+                        </a>
+                        </li>
+                </ul>
+            </div>
         </div>
     )
 }
