@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e47c175d.css",
-    "main.js": "/portfolio/static/js/main.f8f86f59.js",
+    "main.css": "/portfolio/static/css/main.3c7e2624.css",
+    "main.js": "/portfolio/static/js/main.09375a0f.js",
     "static/media/reactjs-icon.png": "/portfolio/static/media/reactjs-icon.81ed438b18e24116794d.png",
     "static/media/eu.jpg": "/portfolio/static/media/eu.7a887e3ca4cbc0c9fb61.jpg",
-    "static/media/c-sharp-icon.png": "/portfolio/static/media/c-sharp-icon.dcfd7cba519fc03651fb.png",
     "static/media/spring-icon.png": "/portfolio/static/media/spring-icon.06545b7d2b1013232f72.png",
     "static/media/mongodb-icon.png": "/portfolio/static/media/mongodb-icon.bf8042403d8797a7ff1b.png",
     "static/media/java-icon.png": "/portfolio/static/media/java-icon.ddf8676bd569fe01ab44.png",
     "static/media/scrumban-icon.png": "/portfolio/static/media/scrumban-icon.bb0494e74eb70f875f22.png",
-    "static/media/nodejs-icon.png": "/portfolio/static/media/nodejs-icon.9fea1c7da2bd42ab93bf.png",
     "static/media/github-icon.png": "/portfolio/static/media/github-icon.a6956aa73fec8918f497.png",
     "static/media/mysql-icon.png": "/portfolio/static/media/mysql-icon.a04abbf76b39676bc4d9.png",
     "static/media/english-icon.png": "/portfolio/static/media/english-icon.ca3f7167bf0d6e8f538e.png",
     "static/media/html-icon.png": "/portfolio/static/media/html-icon.ff3cf75e3b7cbb4ea77c.png",
     "static/media/css-icon.png": "/portfolio/static/media/css-icon.8f82a2307d7993ce1d06.png",
     "static/media/js-icon.png": "/portfolio/static/media/js-icon.3dfb665e058d08c99f28.png",
+    "static/media/django-icon.webp": "/portfolio/static/media/django-icon.436c495fc0215de5ac45.webp",
     "index.html": "/portfolio/index.html",
-    "main.e47c175d.css.map": "/portfolio/static/css/main.e47c175d.css.map",
-    "main.f8f86f59.js.map": "/portfolio/static/js/main.f8f86f59.js.map"
+    "main.3c7e2624.css.map": "/portfolio/static/css/main.3c7e2624.css.map",
+    "main.09375a0f.js.map": "/portfolio/static/js/main.09375a0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e47c175d.css",
-    "static/js/main.f8f86f59.js"
+    "static/css/main.3c7e2624.css",
+    "static/js/main.09375a0f.js"
   ]
 }
