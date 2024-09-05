@@ -1,0 +1,265 @@
+/* Header */
+.header {
+    height: 100px;
+    background-color: black;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name h1 {
+    color: orange;
+}
+
+.socialMedia ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socialMedia ul li img {
+    width: 20px;
+}
+
+.socialMedia ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+
+.socialMedia ul li a:hover {
+    text-decoration: underline orange;
+}
+
+/* responsividade */
+@media(max-width: 460px) {
+    .socialMedia ul {
+        flex-direction: column;
+    }
+}
+
+/* About Me */
+.container {
+    background-color: black;
+    width: 96%;
+    margin: 30px auto;
+    padding: 30px 0;
+}
+
+.myInfo {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.picture img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+.aboutMe {
+    width: 60%;
+}
+
+.aboutMe p {
+    /* line-height: 20px; */
+    text-indent: 50px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+/* responsividade */
+@media(max-width: 900px) {
+    .myInfo {
+        justify-content: space-between;
+    }
+
+    .container {
+        margin: 20px auto;
+    }
+}
+
+@media(max-width: 750px) {
+    .myInfo {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .picture, .aboutMe {
+        margin: 0 auto;
+    }
+
+    .aboutMe {
+        width: 100%;
+    }
+}
+
+/* Experience */
+.experience {
+    background-color: black;
+    width: 96%;
+    margin: 30px auto;
+    padding: 30px 0;
+}
+
+.experience p a {
+    color: orange;
+}
+
+.experience ul {
+    text-align: center;
+    list-style: none;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.experience ul li {
+    margin-left: -40px;
+}
+
+.experience .local {
+    font-weight: bold;
+    text-decoration: underline orange;
+}
+
+/* responsividade */
+@media(max-width: 900px) {
+    .experience {
+        margin: 20px auto;
+    }
+}
+
+/* Academic */
+.academicRecord {
+    background-color: black;
+    width: 96%;
+    margin: 30px auto;
+    padding: 30px 0;
+}
+
+.academicRecord ul {
+    text-align: center;
+    list-style: none;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.academicRecord ul li {
+    margin-left: -40px;
+}
+
+.academicRecord .year {
+    font-weight: bold;
+    text-decoration: underline orange;
+}
+
+.academicRecord a {
+    color: orange;
+    text-decoration: underline orange;
+}
+
+
+/* responsividade */
+@media(max-width: 900px) {
+    .academicRecord {
+        margin: 20px auto;
+    }
+}
+
+/* Skills */
+.skills {
+    background-color: black;
+    width: 96%;
+    margin: 30px auto;
+    padding: 30px 0;
+}
+
+.skills ul {
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.skills ul li {
+    list-style: none;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.skills ul li img {
+    width: 50px;
+}
+
+/* responsividade */
+@media(max-width: 400px) {
+    .skills {
+        margin: 20px auto;
+    }
+    .skills ul li {
+        width: 27%;
+    }
+}
+
+/* My Projects */
+.projects {
+    background-color: black;
+    width: 96%;
+    margin: 30px auto;
+    padding: 30px 0;
+}
+
+.projects ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 20px;
+    line-height: 1px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.projects ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.projects ul li a:hover {
+    /* color: orange; */
+    text-decoration: underline orange;
+}
+
+/* responsividade */
+@media(max-width: 900px) {
+    .projects {
+        margin: 20px auto;
+    }
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    padding: 20px 30px;
+}
+
+.footer h3, .footer p {
+    color: orange;
+}
+
+.footer p {
+    text-align: end;
+}

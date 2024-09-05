@@ -1,10 +1,19 @@
-import '../css/Experience.css'
+import '../css/styles.css'
 
 export function Experience() {
     return (
         <div className='experience'>
             <h2>Experiência</h2>
-            <p>Fui membro da Projetos Consultoria Integrada, empresa júnior do CEUB. Lá, durante 7 meses (de 3 de julho de 2023 até 16 de fevereiro de 2024), fui consultor de projetos por 5 e agente comercial por 2. Realizei o desenvolvimento de landing pages e sites durante esses 5 meses e, após este período, passei no processo seletivo da área comercial. Meu objetivo nessa área era desenvolver soft skills de comunicação, que era uma fraqueza minha. Apesar de estar na área comercial, também utilizei de conhecimentos em T.I. para desenvolver uma aplicação interna que agilizasse o envio de mensagens, onde você pode visualizar <a href="https://github.com/lbc354/zap-agn" target='_blank'>clicando aqui</a>.</p>
+            <ul>
+                <li>
+                    <p className='local'>PCI</p>
+                    <p className='justify'>De julho de 2023 até fevereiro de 2024, fui consultor de projetos por 5 meses e agente comercial por 2. Realizei o desenvolvimento de landing pages e sites durante esses 5 meses e, após este período, passei no processo seletivo da área comercial. Meu objetivo nessa área era desenvolver soft skills de comunicação. Ainda na área comercial, desenvolvi uma aplicação interna para prospecção via WhatsApp. Por mais simples que fosse, foi para eles um grande prazer pela facilidade que se tornou o processo. <a href="https://github.com/lbc354/zap-agn" target='_blank'>Projeto</a>.</p>
+                </li>
+                <li>
+                    <p className='local'>ARCX</p>
+                    <p className='justify'>Atualmente, sou desenvolvedor Full Stack da ARCX Soluções Inteligentes. Comecei no final de março de 2024 e estou aqui desde então. Fui o responsável pelo desenvolvimento de 2 projetos. No primeiro, utilizando Spring Boot + ReactJS. No segundo, utilizando Django.</p>
+                </li>
+            </ul>
         </div>
     )
 }

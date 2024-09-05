@@ -1,4 +1,4 @@
-import '../css/Header.css';
+import '../css/styles.css';
 import github_icon from '../img/github-icon.png';
 import linkedin_icon from '../img/linkedin-icon.png';
 

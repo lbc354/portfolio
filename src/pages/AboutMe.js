@@ -1,4 +1,4 @@
-import '../css/AboutMe.css';
+import '../css/styles.css';
 import picture from '../img/eu.jpg';
 
 export function AboutMe() {
@@ -10,7 +10,7 @@ export function AboutMe() {
                 </div>
                 <div className='aboutMe'>
                     <h2>Sobre mim</h2>
-                    <p>Olá! Meu nome é Lucas, tenho 19 anos e sou desenvolvedor. Gosto de ouvir música e assistir filmes. Desde mais jovem eu tinha interesse por tecnologia. Entrei na área da TI ainda sem uma visão clara do que queria fazer e se era isso que eu ia gostar. Aquelas dúvidas que muitos têm. E felizmente hoje não me sinto nem um pouco arrependido da escolha que tomei. Sou feliz na área e mais feliz ainda por conseguir fazer pessoas sorrirem com o que faço.</p>
+                    <p className='justify'>Olá! Meu nome é Lucas, tenho 20 anos e sou desenvolvedor. Sou conhecido por ser uma pessoa prestativa e leal. Sou formado em Análise e Desenvolvimento de Sistemas pelo CEUB e estou cursando duas pós-graduações pela Anhanguera (Full Stack e DevOps). Hoje, sou desenvolvedor Full Stack da ARCX Soluções Inteligentes, empresa especializada no desenvolvimento de software.</p>
                 </div>
             </div>
         </div>
