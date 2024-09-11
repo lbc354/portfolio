@@ -214,6 +214,35 @@
     }
 }
 
+/* Certificates */
+.certificates {
+    background-color: black;
+    width: 96%;
+    margin: 30px auto;
+    padding: 30px 0;
+}
+
+.certificates ul {
+    text-align: center;
+    list-style: none;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.certificates ul li {
+    margin-left: -40px;
+    margin-bottom: 20px;
+}
+
+.certificates a {
+    color: white;
+    text-decoration: none;
+}
+
+.certificates a:hover {
+    text-decoration: underline orange;
+}
+
 /* My Projects */
 .projects {
     background-color: black;
