@@ -19,19 +19,27 @@
     gap: 20px;
 }
 
-.socialMedia ul li img {
-    width: 20px;
-}
-
-.socialMedia ul li a {
+.socialMedia a {
     color: white;
     text-decoration: none;
     display: flex;
-    align-items: end;
+    align-items: center;
     gap: 10px;
 }
 
-.socialMedia ul li a:hover {
+.socialMedia i {
+    font-size: 20px;
+}
+
+.fa-github {
+    color: orange;
+}
+
+.fa-linkedin {
+    color: #0A66C2;
+}
+
+.socialMedia span:hover {
     text-decoration: underline orange;
 }
 
@@ -92,7 +100,8 @@
         justify-content: center;
     }
 
-    .picture, .aboutMe {
+    .picture,
+    .aboutMe {
         margin: 0 auto;
     }
 
@@ -165,12 +174,46 @@
     text-decoration: underline orange;
 }
 
-
 /* responsividade */
 @media(max-width: 900px) {
     .academicRecord {
         margin: 20px auto;
     }
+}
+
+/* Certificates */
+.certificates {
+    background-color: black;
+    width: 96%;
+    margin: 30px auto;
+    padding: 30px 0;
+}
+
+.certificates ul {
+    text-align: center;
+    list-style: none;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.certificates ul li {
+    margin-left: -40px;
+    margin-bottom: 20px;
+}
+
+.certificates a {
+    color: white;
+    text-decoration: none;
+}
+
+.certificates a i {
+    color: orange;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.certificates a:hover {
+    text-decoration: underline orange;
 }
 
 /* Skills */
@@ -209,41 +252,13 @@
     .skills {
         margin: 20px auto;
     }
+
     .skills ul li {
         width: 27%;
     }
 }
 
-/* Certificates */
-.certificates {
-    background-color: black;
-    width: 96%;
-    margin: 30px auto;
-    padding: 30px 0;
-}
-
-.certificates ul {
-    text-align: center;
-    list-style: none;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.certificates ul li {
-    margin-left: -40px;
-    margin-bottom: 20px;
-}
-
-.certificates a {
-    color: white;
-    text-decoration: none;
-}
-
-.certificates a:hover {
-    text-decoration: underline orange;
-}
-
-/* My Projects */
+/* Projects */
 .projects {
     background-color: black;
     width: 96%;
@@ -285,7 +300,8 @@
     padding: 20px 30px;
 }
 
-.footer h3, .footer p {
+.footer h3,
+.footer p {
     color: orange;
 }
 

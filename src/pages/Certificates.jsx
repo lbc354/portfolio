@@ -13,25 +13,46 @@ export function Certificates() {
             <h2>Certificados</h2>
             <ul>
                 <li>
-                    <a href={cna} target="_blank" rel="noopener noreferrer">Master in English - CNA</a>
+                    <a href={cna} target="_blank" rel="noopener noreferrer">
+                        Master in English - CNA
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href={cambridge} target="_blank" rel="noopener noreferrer">First Certificate in English - Cambridge Assessment</a>
+                    <a href={cambridge} target="_blank" rel="noopener noreferrer">
+                        First Certificate in English - Cambridge Assessment
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href={spring} target="_blank" rel="noopener noreferrer">Spring Boot - Udemy</a>
+                    <a href={spring} target="_blank" rel="noopener noreferrer">
+                        Spring Boot - Udemy
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href={fullstack} target="_blank" rel="noopener noreferrer">FullStack Spring Boot + ReactJS - Udemy</a>
+                    <a href={fullstack} target="_blank" rel="noopener noreferrer">
+                        FullStack Spring Boot + ReactJS - Udemy
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href={django} target="_blank" rel="noopener noreferrer">Django Web Framework - Udemy</a>
+                    <a href={django} target="_blank" rel="noopener noreferrer">
+                        Django Web Framework - Udemy
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href={lfc111} target="_blank" rel="noopener noreferrer">LFC111 - Linux Foundation</a>
+                    <a href={lfc111} target="_blank" rel="noopener noreferrer">
+                        LFC111 - Linux Foundation
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href={lfc112} target="_blank" rel="noopener noreferrer">LFC112 - Linux Foundation</a>
+                    <a href={lfc112} target="_blank" rel="noopener noreferrer">
+                        LFC112 - Linux Foundation
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </li>
             </ul>
         </div>

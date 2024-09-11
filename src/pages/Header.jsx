@@ -1,6 +1,4 @@
 import '../css/styles.css';
-import github_icon from '../img/github-icon.png';
-import linkedin_icon from '../img/linkedin-icon.png';
 
 export function Header() {
     return (
@@ -12,13 +10,13 @@ export function Header() {
                 <ul>
                     <li>
                         <a href="https://github.com/lbc354" target='_blank'>
-                            <img src={github_icon} alt="github-icon" />
+                            <i class="fa-brands fa-github"></i>
                             <span>GitHub</span>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/lucas-barros-carregozi/" target='_blank'>
-                            <img src={linkedin_icon} alt="linkedin-icon" />
+                            <i class="fa-brands fa-linkedin"></i>
                             <span>LinkedIn</span>
                         </a>
                         </li>

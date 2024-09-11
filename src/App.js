@@ -15,8 +15,8 @@ export function App() {
       <AboutMe />
       <Experience />
       <Academic />
-      <Skills />
       <Certificates />
+      <Skills />
       <MyProjects />
       <Footer />
     </div>
