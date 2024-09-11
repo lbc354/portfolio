@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bd884fa5.css",
-    "main.js": "/portfolio/static/js/main.08098363.js",
+    "main.css": "/portfolio/static/css/main.59f251fd.css",
+    "main.js": "/portfolio/static/js/main.f678e1c3.js",
     "static/media/ingles-cambridge.pdf": "/portfolio/static/media/ingles-cambridge.ef2c219090ef3c03cc07.pdf",
     "static/media/ingles-cna.pdf": "/portfolio/static/media/ingles-cna.6062f1af16eee3ea87e6.pdf",
     "static/media/django-web-framework.pdf": "/portfolio/static/media/django-web-framework.164ef8373f3a3c5b215d.pdf",
@@ -23,11 +23,11 @@
     "static/media/js-icon.png": "/portfolio/static/media/js-icon.3dfb665e058d08c99f28.png",
     "static/media/django-icon.webp": "/portfolio/static/media/django-icon.436c495fc0215de5ac45.webp",
     "index.html": "/portfolio/index.html",
-    "main.bd884fa5.css.map": "/portfolio/static/css/main.bd884fa5.css.map",
-    "main.08098363.js.map": "/portfolio/static/js/main.08098363.js.map"
+    "main.59f251fd.css.map": "/portfolio/static/css/main.59f251fd.css.map",
+    "main.f678e1c3.js.map": "/portfolio/static/js/main.f678e1c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd884fa5.css",
-    "static/js/main.08098363.js"
+    "static/css/main.59f251fd.css",
+    "static/js/main.f678e1c3.js"
   ]
 }
